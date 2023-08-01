@@ -20,8 +20,7 @@ body{
 }
 
 header{
-    background-color: var(--corprincpial);
-    padding: 32px;
+    background-color: var(--corprincpial);    
     max-width: 100%;
     min-width: 600px;
     font-weight: normal;
@@ -30,11 +29,8 @@ header{
     margin-bottom: 24px;
 }
 
-.caixaheader{
-    position: relative;
-    max-width: 940px;
-    margin: 0 auto;
-}
+
+
 
 
 nav{
@@ -65,7 +61,7 @@ main{
     margin: auto;
     padding: 4px;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 1392px;
     border-radius: 16px;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);
 }

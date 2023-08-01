@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root{
+    --corprincpial: #0C0747; 
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,17 +15,19 @@
 }
 
 
-body{
-    background-color: #0C0747;
-    font-family: 'bebaneue'
+body{    
+    background-color: var(--corprincpial);
 }
 
 header{
-    background-color: #0C0747;
+    background-color: var(--corprincpial);
     padding: 32px;
     max-width: 100%;
     min-width: 600px;
     font-weight: normal;
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);
+    margin-bottom: 24px;
 }
 
 .caixaheader{
@@ -35,11 +41,12 @@ nav{
     position: absolute;
     top: 120px;
     right: 0;  
-    padding: 16px;    
+    padding: 16px;     
 }
 
 nav >a{
     color: white;
+    font-family: 'bebaneue';
     font-size: 2em;
     margin-right: 60px;
     text-transform: uppercase;
@@ -49,5 +56,16 @@ nav >a{
 
 nav>a:hover{      
     font-weight: bolder;
+    color: #1ED760;
     transition-duration: .2s;    
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 4px;
+    min-width: 300px;
+    max-width: 1000px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);
 }

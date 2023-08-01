@@ -69,3 +69,25 @@ main{
     border-radius: 16px;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);
 }
+
+
+@media screen and (max-width: 560px){
+    .caixaheader{
+        width: auto;
+    }
+
+    h1{
+     text-align: center;
+   }
+   
+   main{
+     margin: auto;
+     width: auto;
+   }     
+
+   nav {
+        position: static;
+        text-align: center;
+   }
+
+}

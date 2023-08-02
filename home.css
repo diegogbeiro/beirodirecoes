@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-:root{
-    --corprincpial: #0C0747; 
-}
 
 *{
     margin: 0px;
@@ -14,9 +11,23 @@
     src: url('fontes/BebasNeue-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'roboto';
+    src: url('fontes/RobotoCondensed-Light.ttf');
+}
+
+:root{
+    --corprincpial: #0C0747; 
+
+    --fontenav:'bebaneue';
+    --fontprincipal: 'roboto';
+}
+
+
 
 body{    
     background-color: var(--corprincpial);
+    font-family: var(--fontprincipal);
 }
 
 header{
@@ -28,8 +39,6 @@ header{
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);
     margin-bottom: 24px;
 }
-
-
 
 
 
@@ -59,9 +68,9 @@ nav>a:hover{
 main{
     background-color: white;
     margin: auto;
-    padding: 4px;
+    padding: 16px;
     min-width: 300px;
-    max-width: 1392px;
+    max-width: 1000px;
     border-radius: 16px;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);
 }
@@ -72,13 +81,18 @@ main{
         width: auto;
     }
 
-    h1{
-     text-align: center;
-   }
+    .logo{
+        text-align: center;
+    }
+
+   .logoII{
+        text-align: center;
+        margin-left: -64px;
+    }
    
    main{
-     margin: auto;
-     width: auto;
+     margin: 24px;
+     width: auto;     
    }     
 
    nav {
@@ -87,3 +101,4 @@ main{
    }
 
 }
+

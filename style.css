@@ -1,0 +1,85 @@
+@charset "UTF-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url('fontes/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fontes/RobotoCondensed-Light.ttf');
+}
+
+:root{
+    --corprincipal: #0C0747; 
+    
+    --fontenav: 'bebaneue';
+    --fontprincipal: 'roboto';
+}
+
+body{    
+    background-color: var(--corprincipal);
+    font-family: var(--fontprincipal);
+}
+
+header{
+    background-color: var(--corprincpial);    
+    max-width: 100%;
+    min-width: 600px;
+    font-weight: normal;
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);
+    margin-bottom: 24px;
+}
+
+
+nav{
+    position: absolute;
+    top: 120px;
+    right: 0;  
+    padding: 16px;     
+}
+
+nav >a{
+    color: white;
+    font-family: 'bebasneue';
+    font-size: 2em;
+    margin-right: 60px;
+    text-transform: uppercase;
+    text-decoration: none; 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.253);       
+}
+
+nav>a:hover{      
+    font-weight: bolder;
+    color: #1ED760;
+    transition-duration: .2s;    
+}
+
+
+
+
+@media screen and (max-width: 560px){
+  
+
+    .logo{
+        text-align: center;
+    }
+
+   
+   main{
+     margin: 24px;
+     width: auto;     
+   }     
+
+   nav {
+        position: static;
+        text-align: center;
+   }
+
+}

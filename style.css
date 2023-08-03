@@ -76,19 +76,6 @@ main{
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);
 }
 
-section > ul{
-    margin: auto;
-}
-ul > li{
-    display: inline-block;
-    text-align: center;
-    max-width: 30%;
-    vertical-align: top;    
-    margin: 8px;
-    border: 2px black solid;
-    border-radius: 32px;
-    box-sizing: border-box;
-    padding: 8px;
-}
+
 
 /*verificar a responividade da logo quando tiver com a tela em 568px*/

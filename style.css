@@ -18,7 +18,7 @@
 :root{
     --corprincipal: #0C0747; 
     
-    --fontenav: 'bebaneue';
+    --fontenav: 'bebasneue';
     --fontprincipal: 'roboto';
 }
 
@@ -30,7 +30,7 @@ body{
 .caixaheader{
     background-color: var(--corprincpial);    
     max-width: 100%;
-    min-width: 600px;
+    min-width: 500px;
     height: 220px;
     margin-bottom: 24px;
     font-weight: normal;
@@ -38,11 +38,7 @@ body{
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);    
 }
 
-.logo{
-    position: absolute;
-    top: 8px;
-    left: 220px ;
-}
+
 
 nav{
     position: absolute;
@@ -80,6 +76,24 @@ main{
     font-weight: 400;
 }
 
+main p{
+    margin: 16px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.linkp{
+    font-family: var(--fontenav);
+    font-weight: bolder;
+    color: var(--corprincipal);
+    text-decoration: none;
+}
+
+.linkp:hover{
+    font-weight: 800;
+    color: #1ED760;
+    transition-duration: .2s;
+}
 .sectionI, .sectionII{
     margin: auto;
     text-align: center;
@@ -108,13 +122,28 @@ main{
     box-sizing: border-box;    
 }
 
-aside{
-    text-align: center;
+
+.mapa{
+    background-color: var(--corprincipal);    
+    padding: 20px;
+    padding-bottom: 56%;
+    margin-bottom: 24px;
+    position: relative;
+    border-radius: 10px;
 }
 
-li > .contato:hover{
-    
+div.mapa >iframe{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    right: 4%;
+    bottom: 4%;
+    width: 92%;
+    height: 92%;
 }
+
+
+
 
 
 footer{
@@ -126,29 +155,43 @@ footer{
          
 }
 
+aside{
+    text-align: center;
+    
+}
 
 
-.paragrafofooter{
-    padding: 24px;
-    margin: auto;
-    width: 320px;
-    font-family: var(--fontprincipal); 
-    font-weight: 600;
+aside > p,  .contato{
+    color: whitesmoke;
+    font-family: var(--fontenav);
+    
+    line-height: 1.6em;
+    text-decoration: none;
+    padding-inline-start: 4px;
+    
+}
+
+.contato:hover{      
+    font-weight: bolder;
+    color: #1ED760;
+    transition-duration: .2s;    
+}
+
+.imgcontato{
+    top: 2px;
 }
 
 /*verificar a responividade da logo quando tiver com a tela em 568px*/
 
-@media screen and (max-width: 480px){
-    .caixaheader, main, footer{
+@media screen and (max-width: 587px){
+    .caixaheader{
         width: auto;
-    }
-    
+    }    
     .logo {
         text-align: center;
     }
 
     nav{
-        position: static;
-        right: 0;
+        text-align: center;
    }
 }

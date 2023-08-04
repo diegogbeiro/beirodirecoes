@@ -83,12 +83,11 @@ main p{
     line-height: 1.6em;
     text-align: center;
 }
-strong{
+
+.servicos{
     font-family: var(--fontenav);
-    font-weight: bolder;
     color: var(--corprincipal);
 }
-
 .linkp{
     font-family: var(--fontenav);
     font-weight: bolder;

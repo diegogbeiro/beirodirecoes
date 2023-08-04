@@ -86,27 +86,29 @@ main{
 
 
 footer{
-    width: 100%;
+    max-width: 100%;   
+    min-width: 800px;
     height: 80px;
     color: whitesmoke;
     text-align: center;
     background-color: var(--corprincipal); 
+    
          
 }
 
 aside{
     text-align: center;
+    margin: auto;
     
 }
 
-
 aside > p,  .contato{
     color: whitesmoke;
-    font-family: var(--fontenav);
-    
+    font-family: var(--fontenav);    
     line-height: 1.6em;
     text-decoration: none;
-    padding-inline-start: 4px;
+    text-align: center;
+    padding: 4px;
     
 }
 
@@ -139,10 +141,11 @@ aside > p,  .contato{
     ul{
        width: auto;
     }
-    
     nav{
         text-align: center;
         position: static;
         
    }
+
+ 
 }

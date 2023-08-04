@@ -22,6 +22,7 @@
     --fontprincipal: 'roboto';
 }
 
+
 body{    
     background-color: var(--corprincipal);
     font-family: var(--fontprincipal);
@@ -78,76 +79,7 @@ main{
     font-weight: 400;
 }
 
-main p{
-    margin: 16px;
-    line-height: 1.6em;
-    text-align: center;
-}
-strong{
-    font-family: var(--fontenav);
-    font-weight: bolder;
-    color: var(--corprincipal);
-}
 
-.linkp{
-    font-family: var(--fontenav);
-    font-weight: bolder;
-    color: var(--corprincipal);
-    text-decoration: none;
-}
-
-.linkp:hover{
-    font-weight: 800;
-    color: #1ED760;
-    transition-duration: .2s;
-}
-.sectionI, .sectionII{
-    margin: auto;
-    text-align: center;
-}
-.sectionI li{
-    display: inline-block;
-    text-align: center;
-    width: 270px;
-    height: 357px;
-    vertical-align: top;    
-    margin: 24px;
-    border: 2px black solid;
-    border-radius: 32px;
-    box-sizing: border-box;    
-}
-
-.sectionII li{
-    display: inline-block;
-    text-align: center;
-    width: 270px;
-    height: 357px;
-    vertical-align: top;    
-    margin: 24px;
-    border: 2px black solid;
-    border-radius: 32px;
-    box-sizing: border-box;    
-}
-
-
-.mapa{
-    background-color: var(--corprincipal);    
-    padding: 20px;
-    padding-bottom: 56%;
-    margin-bottom: 24px;
-    position: relative;
-    border-radius: 10px;
-}
-
-div.mapa >iframe{
-    position: absolute;
-    top: 4%;
-    left: 4%;
-    right: 4%;
-    bottom: 4%;
-    width: 92%;
-    height: 92%;
-}
 
 
 
@@ -202,13 +134,12 @@ aside > p,  .contato{
 
    main{
     margin: 80px ;
-    
-
    }
 
     ul{
        width: auto;
     }
+    
     nav{
         text-align: center;
         position: static;

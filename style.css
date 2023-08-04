@@ -27,23 +27,26 @@ body{
     font-family: var(--fontprincipal);
 }
 
-.caixaheader{
-    background-color: var(--corprincpial);    
-    max-width: 100%;
-    min-width: 500px;
-    height: 220px;
+header{
+    background-color: var(--corprincipal);    
+    max-width: 100%;   
+    min-width: 800px; 
+    height: 260px;
     margin-bottom: 24px;
     font-weight: normal;
     border-radius: 0px 0px 16px 16px;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);    
 }
 
+.logo{
+    text-align: center;
+    margin: auto;
+}
 
 
 nav{
-    position: absolute;
-    top: 148px;
-    right: 220px;
+   margin: auto;
+   text-align: center;
          
 }
 
@@ -65,13 +68,12 @@ nav>a:hover{
 
 main{
     background-color: whitesmoke;
-    max-width: 800px;
     min-width: 600px;
-    margin: auto;
+    max-width: 800px;    
+    margin: 24px auto;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);
-    margin-bottom: 24px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.274);    
     font-family: var(--fontprincipal);
     font-weight: 400;
 }
@@ -184,14 +186,27 @@ aside > p,  .contato{
 /*verificar a responividade da logo quando tiver com a tela em 568px*/
 
 @media screen and (max-width: 587px){
-    .caixaheader{
+    header{
         width: auto;
+        height: 160px;
     }    
+
     .logo {
         text-align: center;
     }
 
+   main{
+    margin: 80px ;
+    
+
+   }
+
+    ul{
+       width: auto;
+    }
     nav{
         text-align: center;
+        position: static;
+        
    }
 }

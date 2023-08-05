@@ -149,7 +149,13 @@ div.mapa >iframe{
 }
 
 
-
+.revisao{
+    text-align: center;
+    background-color: #0C0747;   
+    border-radius: 12px;
+    padding: 16px;
+    
+}
 
 
 footer{

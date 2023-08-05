@@ -22,7 +22,6 @@
     --fontprincipal: 'roboto';
 }
 
-
 body{    
     background-color: var(--corprincipal);
     font-family: var(--fontprincipal);
@@ -135,6 +134,7 @@ aside > p,  .contato{
     }
 
    main{
+    
     margin: 80px ;
    }
 

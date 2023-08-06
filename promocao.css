@@ -88,8 +88,13 @@ section{
 
 section > h1{
     text-align: center;
+    font-family: var(--fontenav);
+    font-size: 1.6em;
+    font-weight: bold;
+    color: var(--corprincipal);
     margin: 24px;
 }
+
 
 .paragrafo{
     width: 800px;
@@ -103,10 +108,14 @@ section > h1{
     width: 160px;
 }
 
-strong{
+.preco{
+    text-align: center;
+}
+
+p > strong{
     color: var(--corprincipal);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
+    font-size: 1.2em;
+    font-family: var(--fontenav);
     font-weight: bold;
 }
 

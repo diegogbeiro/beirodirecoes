@@ -78,8 +78,37 @@ main{
     font-weight: 400;
 }
 
+main>p{
+    text-align: center;
+}
 
+section{
+    margin: 24px;
+}
 
+section > h1{
+    text-align: center;
+    margin: 24px;
+}
+
+.paragrafo{
+    width: 800px;
+    line-height: 2.0em;
+    
+}
+
+.itens{
+    float: left;
+    margin: 24px 16px 0 0;
+    width: 160px;
+}
+
+strong{
+    color: var(--corprincipal);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
 
 
 
@@ -139,13 +168,21 @@ aside > p,  .contato{
     margin: 80px ;
    }
 
-    ul{
-       width: auto;
-    }
     nav{
         text-align: center;
         position: static;
         
+   }
+
+   .itens{
+    width: 136px;
+   }
+
+   
+
+   .paragrafo{
+    width: 600px;    
+    text-align: center;
    }
 
  

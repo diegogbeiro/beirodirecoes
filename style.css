@@ -100,34 +100,15 @@ main p{
     color: #1ED760;
     transition-duration: .2s;
 }
-.sectionI, .sectionII{
-    margin: auto;
-    text-align: center;
-}
-.sectionI li{
-    display: inline-block;
-    text-align: center;
-    width: 270px;
-    height: 357px;
-    vertical-align: top;    
-    margin: 24px;
-    border: 2px var(--corprincipal) solid;
-    border-radius: 32px;
-    box-sizing: border-box;    
-}
 
-.sectionII li{
-    display: inline-block;
+.revisao{
     text-align: center;
-    width: 270px;
-    height: 357px;
-    vertical-align: top;    
-    margin: 24px;
-    border: 2px var(--corprincipal) solid;
-    border-radius: 32px;
-    box-sizing: border-box;    
+    background-color: #0C0747;   
+    border-radius: 12px;
+    padding: 16px;  
+    margin: 24px;  
+    
 }
-
 
 .mapa{
     background-color: var(--corprincipal);    
@@ -149,13 +130,7 @@ div.mapa >iframe{
 }
 
 
-.revisao{
-    text-align: center;
-    background-color: #0C0747;   
-    border-radius: 12px;
-    padding: 16px;
-    
-}
+
 
 
 footer{

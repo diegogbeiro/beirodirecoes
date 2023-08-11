@@ -83,7 +83,7 @@ main>p{
 }
 
 section{
-    margin: 24px;
+    margin: 24px 24px 36px 24px;
 }
 
 section > h1{
@@ -105,7 +105,7 @@ section > h1{
 .itens{
     float: left;
     margin: 24px 16px 0 0;
-    width: 160px;
+    width: 168px;
 }
 
 .preco{
@@ -184,15 +184,21 @@ aside > p,  .contato{
    }
 
    .itens{
-    width: 136px;
+        width: 136px;
    }
 
    
 
    .paragrafo{
-    width: 600px;    
-    text-align: center;
-   }
+        width: 600px;
+        line-height: 1.6em;
+        
+    
+    } 
 
- 
+    .preco{
+        text-align: center;
+        width: 600px;
+        
+    }
 }

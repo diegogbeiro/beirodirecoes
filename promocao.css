@@ -172,12 +172,11 @@ aside > p,  .contato{
         text-align: center;
     }
 
-   main{
-    
-    margin: 80px ;
+   main{    
+        margin: 80px ;
    }
 
-    nav{
+    nav{    
         text-align: center;
         position: static;
         
@@ -192,6 +191,7 @@ aside > p,  .contato{
    .paragrafo{
         width: 600px;
         line-height: 1.6em;
+        font-size: 14px;
         
     
     } 

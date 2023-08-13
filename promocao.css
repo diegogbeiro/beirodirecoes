@@ -162,7 +162,7 @@ aside > p,  .contato{
 
 /*verificar a responividade da logo quando tiver com a tela em 568px*/
 
-@media screen and (max-width: 587px){
+@media screen and (max-width: 568px){
     header{
         width: auto;
         height: 160px;

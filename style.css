@@ -79,9 +79,21 @@ main{
 }
 
 main p{
+    font-size: 1.6em;
     margin: 16px;
     line-height: 1.6em;
     text-align: center;
+}
+
+.orçamento{
+    text-align: center;
+    
+}
+
+.imgorçamento{     
+    border-radius: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;  
 }
 
 .servicos{

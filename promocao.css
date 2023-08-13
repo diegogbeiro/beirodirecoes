@@ -80,10 +80,13 @@ main{
 
 main>p{
     text-align: center;
+    margin: 12px 24px 24px 12px;
+    
 }
 
 section{
     margin: 24px 24px 36px 24px;
+    padding: 24px;
 }
 
 section > h1{
@@ -92,7 +95,7 @@ section > h1{
     font-size: 1.6em;
     font-weight: bold;
     color: var(--corprincipal);
-    margin: 24px;
+    margin: 8px;
 }
 
 
@@ -110,11 +113,12 @@ section > h1{
 
 .preco{
     text-align: center;
+    margin-bottom: 36px;
 }
 
 p > strong{
     color: var(--corprincipal);
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-family: var(--fontenav);
     font-weight: bold;
 }
@@ -160,6 +164,9 @@ aside > p,  .contato{
     top: 2px;
 }
 
+
+
+
 /*verificar a responividade da logo quando tiver com a tela em 568px*/
 
 @media screen and (max-width: 568px){
@@ -190,7 +197,7 @@ aside > p,  .contato{
 
    .paragrafo{
         width: 600px;
-        line-height: 1.6em;
+        line-height: 1.8em;
         font-size: 14px;
         
     
